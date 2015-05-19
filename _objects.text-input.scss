@@ -16,11 +16,11 @@ $inuit-text-input-height:                   double($inuit-base-spacing-unit) !de
 $inuit-text-input-height--small:            halve($inuit-text-input-height) !default;
 $inuit-text-input-height--large:            double($inuit-text-input-height) !default;
 
-$inuit-text-input-padding-vertical:         halve($inuit-text-input-height - $inuit-text-input-line-height);
+$inuit-text-input-padding-vertical:         halve($inuit-text-input-height - $inuit-text-input-line-height) !default;
 $inuit-text-input-padding-vertical--small:  halve($inuit-text-input-height--small - $inuit-text-input-line-height) !default;
 $inuit-text-input-padding-vertical--large:  halve($inuit-text-input-height--large - $inuit-text-input-line-height) !default;
 
-$inuit-text-input-padding-horizontal:       halve($inuit-base-spacing-unit);
+$inuit-text-input-padding-horizontal:       halve($inuit-base-spacing-unit) !default;
 $inuit-text-input-padding-horizontal--small:halve($inuit-text-input-padding-horizontal) !default;
 $inuit-text-input-padding-horizontal--large:double($inuit-text-input-padding-horizontal) !default;
 
